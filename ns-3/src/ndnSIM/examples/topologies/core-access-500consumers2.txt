@@ -1,0 +1,1255 @@
+# any empty lines and lines starting with '#' symbol is ignored
+#
+# The file should contain exactly two sections: router and link, each starting with the corresponding keyword
+#
+# router section defines topology nodes and their relative positions (e.g., to use in visualizer)
+router
+
+# each line in this section represents one router and should have the following data
+# node               comment          yPos    xPos
+
+
+# ----------- ----consumer nodes ---------------
+consumer-1        consumer-node       0       0
+consumer-2        consumer-node       0       0
+consumer-3        consumer-node       0       0
+consumer-4        consumer-node       0       0
+consumer-5        consumer-node       0       0
+consumer-6        consumer-node       0       0
+consumer-7        consumer-node       0       0
+consumer-8        consumer-node       0       0
+consumer-9        consumer-node       0       0
+consumer-10       consumer-node       0       0
+
+consumer-11       consumer-node       0       0
+consumer-12       consumer-node       0       0
+consumer-13       consumer-node       0       0
+consumer-14       consumer-node       0       0  
+consumer-15       consumer-node       0       0
+consumer-16       consumer-node       0       0  
+consumer-17       consumer-node       0       0
+consumer-18       consumer-node       0       0  
+consumer-19       consumer-node       0       0
+consumer-20       consumer-node       0       0         
+
+consumer-21       consumer-node       0       0
+consumer-22       consumer-node       0       0
+consumer-23       consumer-node       0       0
+consumer-24       consumer-node       0       0  
+consumer-25       consumer-node       0       0
+consumer-26       consumer-node       0       0  
+consumer-27       consumer-node       0       0
+consumer-28       consumer-node       0       0  
+consumer-29       consumer-node       0       0
+consumer-30       consumer-node       0       0  
+
+consumer-31       consumer-node       0       0
+consumer-32       consumer-node       0       0
+consumer-33       consumer-node       0       0
+consumer-34       consumer-node       0       0  
+consumer-35       consumer-node       0       0
+consumer-36       consumer-node       0       0  
+consumer-37       consumer-node       0       0
+consumer-38       consumer-node       0       0  
+consumer-39       consumer-node       0       0
+consumer-40       consumer-node       0       0  
+
+consumer-41       consumer-node       0       0
+consumer-42       consumer-node       0       0
+consumer-43       consumer-node       0       0
+consumer-44       consumer-node       0       0  
+consumer-45       consumer-node       0       0
+consumer-46       consumer-node       0       0  
+consumer-47       consumer-node       0       0
+consumer-48       consumer-node       0       0  
+consumer-49       consumer-node       0       0
+consumer-50       consumer-node       0       0
+
+consumer-51       consumer-node       0       0
+consumer-52       consumer-node       0       0
+consumer-53       consumer-node       0       0
+consumer-54       consumer-node       0       0  
+consumer-55       consumer-node       0       0
+consumer-56       consumer-node       0       0  
+consumer-57       consumer-node       0       0
+consumer-58       consumer-node       0       0  
+consumer-59       consumer-node       0       0
+consumer-60       consumer-node       0       0  
+
+consumer-61       consumer-node       0       0
+consumer-62       consumer-node       0       0
+consumer-63       consumer-node       0       0
+consumer-64       consumer-node       0       0  
+consumer-65       consumer-node       0       0
+consumer-66       consumer-node       0       0  
+consumer-67       consumer-node       0       0
+consumer-68       consumer-node       0       0  
+consumer-69       consumer-node       0       0
+consumer-70       consumer-node       0       0  
+
+consumer-71       consumer-node       0       0
+consumer-72       consumer-node       0       0
+consumer-73       consumer-node       0       0
+consumer-74       consumer-node       0       0  
+consumer-75       consumer-node       0       0
+consumer-76       consumer-node       0       0  
+consumer-77       consumer-node       0       0
+consumer-78       consumer-node       0       0  
+consumer-79       consumer-node       0       0
+consumer-80       consumer-node       0       0  
+
+consumer-81       consumer-node       0       0
+consumer-82       consumer-node       0       0
+consumer-83       consumer-node       0       0
+consumer-84       consumer-node       0       0  
+consumer-85       consumer-node       0       0
+consumer-86       consumer-node       0       0  
+consumer-87       consumer-node       0       0
+consumer-88       consumer-node       0       0  
+consumer-89       consumer-node       0       0
+consumer-90       consumer-node       0       0  
+
+consumer-91       consumer-node       0       0
+consumer-92       consumer-node       0       0
+consumer-93       consumer-node       0       0
+consumer-94       consumer-node       0       0  
+consumer-95       consumer-node       0       0
+consumer-96       consumer-node       0       0  
+consumer-97       consumer-node       0       0
+consumer-98       consumer-node       0       0  
+consumer-99       consumer-node       0       0
+consumer-100      consumer-node       0       0 
+
+consumer-101      consumer-node       0       0
+consumer-102      consumer-node       0       0
+consumer-103      consumer-node       0       0
+consumer-104      consumer-node       0       0  
+consumer-105      consumer-node       0       0
+consumer-106      consumer-node       0       0  
+consumer-107      consumer-node       0       0
+consumer-108      consumer-node       0       0  
+consumer-109      consumer-node       0       0
+consumer-110      consumer-node       0       0   
+
+consumer-111      consumer-node       0       0
+consumer-112      consumer-node       0       0
+consumer-113      consumer-node       0       0
+consumer-114      consumer-node       0       0  
+consumer-115      consumer-node       0       0
+consumer-116      consumer-node       0       0  
+consumer-117      consumer-node       0       0
+consumer-118      consumer-node       0       0  
+consumer-119      consumer-node       0       0
+consumer-120      consumer-node       0       0
+
+consumer-121      consumer-node       0       0
+consumer-122      consumer-node       0       0
+consumer-123      consumer-node       0       0
+consumer-124      consumer-node       0       0  
+consumer-125      consumer-node       0       0
+consumer-126      consumer-node       0       0  
+consumer-127      consumer-node       0       0
+consumer-128      consumer-node       0       0  
+consumer-129      consumer-node       0       0
+consumer-130      consumer-node       0       0 
+
+consumer-131      consumer-node       0       0
+consumer-132      consumer-node       0       0
+consumer-133      consumer-node       0       0
+consumer-134      consumer-node       0       0  
+consumer-135      consumer-node       0       0
+consumer-136      consumer-node       0       0  
+consumer-137      consumer-node       0       0
+consumer-138      consumer-node       0       0  
+consumer-139      consumer-node       0       0
+consumer-140      consumer-node       0       0 
+
+consumer-141      consumer-node       0       0
+consumer-142      consumer-node       0       0
+consumer-143      consumer-node       0       0
+consumer-144      consumer-node       0       0  
+consumer-145      consumer-node       0       0
+consumer-146      consumer-node       0       0  
+consumer-147      consumer-node       0       0
+consumer-148      consumer-node       0       0  
+consumer-149      consumer-node       0       0
+consumer-150      consumer-node       0       0 
+
+consumer-151      consumer-node       0       0
+consumer-152      consumer-node       0       0
+consumer-153      consumer-node       0       0
+consumer-154      consumer-node       0       0  
+consumer-155      consumer-node       0       0
+consumer-156      consumer-node       0       0  
+consumer-157      consumer-node       0       0
+consumer-158      consumer-node       0       0  
+consumer-159      consumer-node       0       0
+consumer-160      consumer-node       0       0 
+
+consumer-161      consumer-node       0       0
+consumer-162      consumer-node       0       0
+consumer-163      consumer-node       0       0
+consumer-164      consumer-node       0       0  
+consumer-165      consumer-node       0       0
+consumer-166      consumer-node       0       0  
+consumer-167      consumer-node       0       0
+consumer-168      consumer-node       0       0  
+consumer-169      consumer-node       0       0
+consumer-170      consumer-node       0       0 
+
+consumer-171      consumer-node       0       0
+consumer-172      consumer-node       0       0
+consumer-173      consumer-node       0       0
+consumer-174      consumer-node       0       0  
+consumer-175      consumer-node       0       0
+consumer-176      consumer-node       0       0  
+consumer-177      consumer-node       0       0
+consumer-178      consumer-node       0       0  
+consumer-179      consumer-node       0       0
+consumer-180      consumer-node       0       0 
+
+consumer-181      consumer-node       0       0
+consumer-182      consumer-node       0       0
+consumer-183      consumer-node       0       0
+consumer-184      consumer-node       0       0  
+consumer-185      consumer-node       0       0
+consumer-186      consumer-node       0       0  
+consumer-187      consumer-node       0       0
+consumer-188      consumer-node       0       0  
+consumer-189      consumer-node       0       0
+consumer-190      consumer-node       0       0 
+
+consumer-191      consumer-node       0       0
+consumer-192      consumer-node       0       0
+consumer-193      consumer-node       0       0
+consumer-194      consumer-node       0       0  
+consumer-195      consumer-node       0       0
+consumer-196      consumer-node       0       0  
+consumer-197      consumer-node       0       0
+consumer-198      consumer-node       0       0  
+consumer-199      consumer-node       0       0
+consumer-200      consumer-node       0       0 
+
+consumer-201      consumer-node       0       0
+consumer-202      consumer-node       0       0
+consumer-203      consumer-node       0       0
+consumer-204      consumer-node       0       0  
+consumer-205      consumer-node       0       0
+consumer-206      consumer-node       0       0  
+consumer-207      consumer-node       0       0
+consumer-208      consumer-node       0       0  
+consumer-209      consumer-node       0       0
+consumer-210      consumer-node       0       0 
+
+consumer-211      consumer-node       0       0
+consumer-212      consumer-node       0       0
+consumer-213      consumer-node       0       0
+consumer-214      consumer-node       0       0  
+consumer-215      consumer-node       0       0
+consumer-216      consumer-node       0       0  
+consumer-217      consumer-node       0       0
+consumer-218      consumer-node       0       0  
+consumer-219      consumer-node       0       0
+consumer-220      consumer-node       0       0 
+
+consumer-221      consumer-node       0       0
+consumer-222      consumer-node       0       0
+consumer-223      consumer-node       0       0
+consumer-224      consumer-node       0       0  
+consumer-225      consumer-node       0       0
+consumer-226      consumer-node       0       0  
+consumer-227      consumer-node       0       0
+consumer-228      consumer-node       0       0  
+consumer-229      consumer-node       0       0
+consumer-230      consumer-node       0       0 
+
+consumer-231      consumer-node       0       0
+consumer-232      consumer-node       0       0
+consumer-233      consumer-node       0       0
+consumer-234      consumer-node       0       0  
+consumer-235      consumer-node       0       0
+consumer-236      consumer-node       0       0  
+consumer-237      consumer-node       0       0
+consumer-238      consumer-node       0       0  
+consumer-239      consumer-node       0       0
+consumer-240      consumer-node       0       0 
+
+consumer-241      consumer-node       0       0
+consumer-242      consumer-node       0       0
+consumer-243      consumer-node       0       0
+consumer-244      consumer-node       0       0  
+consumer-245      consumer-node       0       0
+consumer-246      consumer-node       0       0  
+consumer-247      consumer-node       0       0
+consumer-248      consumer-node       0       0  
+consumer-249      consumer-node       0       0
+consumer-250      consumer-node       0       0 
+
+consumer-251      consumer-node       0       0
+consumer-252      consumer-node       0       0
+consumer-253      consumer-node       0       0
+consumer-254      consumer-node       0       0  
+consumer-255      consumer-node       0       0
+consumer-256      consumer-node       0       0  
+consumer-257      consumer-node       0       0
+consumer-258      consumer-node       0       0  
+consumer-259      consumer-node       0       0
+consumer-260      consumer-node       0       0 
+
+consumer-261      consumer-node       0       0
+consumer-262      consumer-node       0       0
+consumer-263      consumer-node       0       0
+consumer-264      consumer-node       0       0  
+consumer-265      consumer-node       0       0
+consumer-266      consumer-node       0       0  
+consumer-267      consumer-node       0       0
+consumer-268      consumer-node       0       0  
+consumer-269      consumer-node       0       0
+consumer-270      consumer-node       0       0 
+
+consumer-271      consumer-node       0       0
+consumer-272      consumer-node       0       0
+consumer-273      consumer-node       0       0
+consumer-274      consumer-node       0       0  
+consumer-275      consumer-node       0       0
+consumer-276      consumer-node       0       0  
+consumer-277      consumer-node       0       0
+consumer-278      consumer-node       0       0  
+consumer-279      consumer-node       0       0
+consumer-280      consumer-node       0       0 
+
+consumer-281      consumer-node       0       0
+consumer-282      consumer-node       0       0
+consumer-283      consumer-node       0       0
+consumer-284      consumer-node       0       0  
+consumer-285      consumer-node       0       0
+consumer-286      consumer-node       0       0  
+consumer-287      consumer-node       0       0
+consumer-288      consumer-node       0       0  
+consumer-289      consumer-node       0       0
+consumer-290      consumer-node       0       0 
+
+consumer-291      consumer-node       0       0
+consumer-292      consumer-node       0       0
+consumer-293      consumer-node       0       0
+consumer-294      consumer-node       0       0  
+consumer-295      consumer-node       0       0
+consumer-296      consumer-node       0       0  
+consumer-297      consumer-node       0       0
+consumer-298      consumer-node       0       0  
+consumer-299      consumer-node       0       0
+consumer-300      consumer-node       0       0 
+
+
+consumer-301      consumer-node       0       0
+consumer-302      consumer-node       0       0
+consumer-303      consumer-node       0       0
+consumer-304      consumer-node       0       0  
+consumer-305      consumer-node       0       0
+consumer-306      consumer-node       0       0  
+consumer-307      consumer-node       0       0
+consumer-308      consumer-node       0       0  
+consumer-309      consumer-node       0       0
+consumer-310      consumer-node       0       0 
+
+consumer-311      consumer-node       0       0
+consumer-312      consumer-node       0       0
+consumer-313      consumer-node       0       0
+consumer-314      consumer-node       0       0  
+consumer-315      consumer-node       0       0
+consumer-316      consumer-node       0       0  
+consumer-317      consumer-node       0       0
+consumer-318      consumer-node       0       0  
+consumer-319      consumer-node       0       0
+consumer-320      consumer-node       0       0 
+
+consumer-321      consumer-node       0       0
+consumer-322      consumer-node       0       0
+consumer-323      consumer-node       0       0
+consumer-324      consumer-node       0       0  
+consumer-325      consumer-node       0       0
+consumer-326      consumer-node       0       0  
+consumer-327      consumer-node       0       0
+consumer-328      consumer-node       0       0  
+consumer-329      consumer-node       0       0
+consumer-330      consumer-node       0       0 
+
+consumer-331      consumer-node       0       0
+consumer-332      consumer-node       0       0
+consumer-333      consumer-node       0       0
+consumer-334      consumer-node       0       0  
+consumer-335      consumer-node       0       0
+consumer-336      consumer-node       0       0  
+consumer-337      consumer-node       0       0
+consumer-338      consumer-node       0       0  
+consumer-339      consumer-node       0       0
+consumer-340      consumer-node       0       0 
+
+consumer-341      consumer-node       0       0
+consumer-342      consumer-node       0       0
+consumer-343      consumer-node       0       0
+consumer-344      consumer-node       0       0  
+consumer-345      consumer-node       0       0
+consumer-346      consumer-node       0       0  
+consumer-347      consumer-node       0       0
+consumer-348      consumer-node       0       0  
+consumer-349      consumer-node       0       0
+consumer-350      consumer-node       0       0 
+
+consumer-351      consumer-node       0       0
+consumer-352      consumer-node       0       0
+consumer-353      consumer-node       0       0
+consumer-354      consumer-node       0       0  
+consumer-355      consumer-node       0       0
+consumer-356      consumer-node       0       0  
+consumer-357      consumer-node       0       0
+consumer-358      consumer-node       0       0  
+consumer-359      consumer-node       0       0
+consumer-360      consumer-node       0       0 
+
+consumer-361      consumer-node       0       0
+consumer-362      consumer-node       0       0
+consumer-363      consumer-node       0       0
+consumer-364      consumer-node       0       0  
+consumer-365      consumer-node       0       0
+consumer-366      consumer-node       0       0  
+consumer-367      consumer-node       0       0
+consumer-368      consumer-node       0       0  
+consumer-369      consumer-node       0       0
+consumer-370      consumer-node       0       0 
+
+consumer-371      consumer-node       0       0
+consumer-372      consumer-node       0       0
+consumer-373      consumer-node       0       0
+consumer-374      consumer-node       0       0  
+consumer-375      consumer-node       0       0
+consumer-376      consumer-node       0       0  
+consumer-377      consumer-node       0       0
+consumer-378      consumer-node       0       0  
+consumer-379      consumer-node       0       0
+consumer-380      consumer-node       0       0 
+
+consumer-381      consumer-node       0       0
+consumer-382      consumer-node       0       0
+consumer-383      consumer-node       0       0
+consumer-384      consumer-node       0       0  
+consumer-385      consumer-node       0       0
+consumer-386      consumer-node       0       0  
+consumer-387      consumer-node       0       0
+consumer-388      consumer-node       0       0  
+consumer-389      consumer-node       0       0
+consumer-390      consumer-node       0       0 
+consumer-391      consumer-node       0       0
+consumer-392      consumer-node       0       0
+consumer-393      consumer-node       0       0
+consumer-394      consumer-node       0       0  
+consumer-395      consumer-node       0       0
+consumer-396      consumer-node       0       0  
+consumer-397      consumer-node       0       0
+consumer-398      consumer-node       0       0  
+consumer-399      consumer-node       0       0
+consumer-400      consumer-node       0       0 
+
+consumer-401      consumer-node       0       0
+consumer-402      consumer-node       0       0
+consumer-403      consumer-node       0       0
+consumer-404      consumer-node       0       0  
+consumer-405      consumer-node       0       0
+consumer-406      consumer-node       0       0  
+consumer-407      consumer-node       0       0
+consumer-408      consumer-node       0       0  
+consumer-409      consumer-node       0       0
+consumer-410      consumer-node       0       0 
+
+consumer-411      consumer-node       0       0
+consumer-412      consumer-node       0       0
+consumer-413      consumer-node       0       0
+consumer-414      consumer-node       0       0  
+consumer-415      consumer-node       0       0
+consumer-416      consumer-node       0       0  
+consumer-417      consumer-node       0       0
+consumer-418      consumer-node       0       0  
+consumer-419      consumer-node       0       0
+consumer-420      consumer-node       0       0 
+
+consumer-421      consumer-node       0       0
+consumer-422      consumer-node       0       0
+consumer-423      consumer-node       0       0
+consumer-424      consumer-node       0       0  
+consumer-425      consumer-node       0       0
+consumer-426      consumer-node       0       0  
+consumer-427      consumer-node       0       0
+consumer-428      consumer-node       0       0  
+consumer-429      consumer-node       0       0
+consumer-430      consumer-node       0       0 
+
+consumer-431      consumer-node       0       0
+consumer-432      consumer-node       0       0
+consumer-433      consumer-node       0       0
+consumer-434      consumer-node       0       0  
+consumer-435      consumer-node       0       0
+consumer-436      consumer-node       0       0  
+consumer-437      consumer-node       0       0
+consumer-438      consumer-node       0       0  
+consumer-439      consumer-node       0       0
+consumer-440      consumer-node       0       0 
+
+consumer-441      consumer-node       0       0
+consumer-442      consumer-node       0       0
+consumer-443      consumer-node       0       0
+consumer-444      consumer-node       0       0  
+consumer-445      consumer-node       0       0
+consumer-446      consumer-node       0       0  
+consumer-447      consumer-node       0       0
+consumer-448      consumer-node       0       0  
+consumer-449      consumer-node       0       0
+consumer-450      consumer-node       0       0 
+
+consumer-451      consumer-node       0       0
+consumer-452      consumer-node       0       0
+consumer-453      consumer-node       0       0
+consumer-454      consumer-node       0       0  
+consumer-455      consumer-node       0       0
+consumer-456      consumer-node       0       0  
+consumer-457      consumer-node       0       0
+consumer-458      consumer-node       0       0  
+consumer-459      consumer-node       0       0
+consumer-460      consumer-node       0       0 
+
+consumer-461      consumer-node       0       0
+consumer-462      consumer-node       0       0
+consumer-463      consumer-node       0       0
+consumer-464      consumer-node       0       0  
+consumer-465      consumer-node       0       0
+consumer-466      consumer-node       0       0  
+consumer-467      consumer-node       0       0
+consumer-468      consumer-node       0       0  
+consumer-469      consumer-node       0       0
+consumer-470      consumer-node       0       0 
+
+consumer-471      consumer-node       0       0
+consumer-472      consumer-node       0       0
+consumer-473      consumer-node       0       0
+consumer-474      consumer-node       0       0  
+consumer-475      consumer-node       0       0
+consumer-476      consumer-node       0       0  
+consumer-477      consumer-node       0       0
+consumer-478      consumer-node       0       0  
+consumer-479      consumer-node       0       0
+consumer-480      consumer-node       0       0 
+
+consumer-481      consumer-node       0       0
+consumer-482      consumer-node       0       0
+consumer-483      consumer-node       0       0
+consumer-484      consumer-node       0       0  
+consumer-485      consumer-node       0       0
+consumer-486      consumer-node       0       0  
+consumer-487      consumer-node       0       0
+consumer-488      consumer-node       0       0  
+consumer-489      consumer-node       0       0
+consumer-490      consumer-node       0       0 
+
+consumer-491      consumer-node       0       0
+consumer-492      consumer-node       0       0
+consumer-493      consumer-node       0       0
+consumer-494      consumer-node       0       0  
+consumer-495      consumer-node       0       0
+consumer-496      consumer-node       0       0  
+consumer-497      consumer-node       0       0
+consumer-498      consumer-node       0       0  
+consumer-499      consumer-node       0       0
+consumer-500      consumer-node       0       0 
+
+
+# ----------------producer nodes ---------------
+producer-1        producer-node       0       0
+producer-2        producer-node       0       0
+
+producer-3        producer-node       0       0
+producer-4        producer-node       0       0
+
+producer-5        producer-node       0       0
+producer-6        producer-node       0       0
+
+producer-7        producer-node       0       0
+producer-8        producer-node       0       0
+
+producer-9        producer-node       0       0
+producer-10       producer-node       0       0
+
+producer-11       producer-node       0       0
+producer-12       producer-node       0       0
+
+producer-13       producer-node       0       0
+producer-14       producer-node       0       0
+
+producer-15       producer-node       0       0
+producer-16       producer-node       0       0
+
+producer-17       producer-node       0       0
+producer-18       producer-node       0       0
+
+producer-19       producer-node       0       0
+producer-20       producer-node       0       0
+
+# ---------- access nodes -------------
+access-1            access-node       0       0
+access-2            access-node       0       0
+access-3            access-node       0       0
+access-4            access-node       0       0
+access-5            access-node       0       0
+access-6            access-node       0       0
+access-7            access-node       0       0
+access-8            access-node       0       0
+access-9            access-node       0       0
+access-10           access-node       0       0
+
+# ---------- core nodes -------------
+core-1               core-node        0       0
+core-2               core-node        0       0
+core-3               core-node        0       0
+core-4               core-node        0       0
+core-5               core-node        0       0
+core-6               core-node        0       0
+core-7               core-node        0       0
+core-8               core-node        0       0
+core-9               core-node        0       0
+core-10              core-node        0       0
+core-11              core-node        0       0
+core-12              core-node        0       0
+core-13              core-node        0       0
+core-14              core-node        0       0
+core-15              core-node        0       0
+core-16              core-node        0       0
+core-17              core-node        0       0
+core-18              core-node        0       0
+core-19              core-node        0       0
+core-20              core-node        0       0
+
+# Note that `node` can be any string. It is possible to access to the node by name using Names::Find, see examples.
+# link section defines point-to-point links between nodes and characteristics of these links
+link
+# Each line should be in the following format (only first two are required, the rest can be omitted)
+# srcNode   dstNode     bandwidth   metric  delay   queue
+# bandwidth: link bandwidth
+# metric: routing metric
+# delay:  link delay
+# queue:  MaxPackets for transmission queue on the link (both directions)
+# link between core and access network
+# this should give us a circle of core network
+
+# communication between consumers and access nodes
+consumer-1        access-1      1Gbps    1    10ms     10
+consumer-2        access-1      1Gbps    1    10ms     10
+consumer-3        access-1      1Gbps    1    10ms     10
+consumer-4        access-1      1Gbps    1    10ms     10
+consumer-5        access-1      1Gbps    1    10ms     10
+consumer-6        access-1      1Gbps    1    10ms     10
+consumer-7        access-1      1Gbps    1    10ms     10
+consumer-8        access-1      1Gbps    1    10ms     10
+consumer-9        access-1      1Gbps    1    10ms     10
+consumer-10       access-1      1Gbps    1    10ms     10
+
+consumer-11       access-1      1Gbps    1    10ms     10
+consumer-12       access-1      1Gbps    1    10ms     10
+consumer-13       access-1      1Gbps    1    10ms     10
+consumer-14       access-1      1Gbps    1    10ms     10
+consumer-15       access-1      1Gbps    1    10ms     10
+consumer-16       access-1      1Gbps    1    10ms     10
+consumer-17       access-1      1Gbps    1    10ms     10
+consumer-18       access-1      1Gbps    1    10ms     10
+consumer-19       access-1      1Gbps    1    10ms     10
+consumer-20       access-1      1Gbps    1    10ms     10
+
+consumer-21       access-1      1Gbps    1    10ms     10
+consumer-22       access-1      1Gbps    1    10ms     10
+consumer-23       access-1      1Gbps    1    10ms     10
+consumer-24       access-1      1Gbps    1    10ms     10
+consumer-25       access-1      1Gbps    1    10ms     10
+consumer-26       access-1      1Gbps    1    10ms     10
+consumer-27       access-1      1Gbps    1    10ms     10
+consumer-28       access-1      1Gbps    1    10ms     10
+consumer-29       access-1      1Gbps    1    10ms     10
+consumer-30       access-1      1Gbps    1    10ms     10
+
+consumer-31       access-1      1Gbps    1    10ms     10
+consumer-32       access-1      1Gbps    1    10ms     10
+consumer-33       access-1      1Gbps    1    10ms     10
+consumer-34       access-1      1Gbps    1    10ms     10
+consumer-35       access-1      1Gbps    1    10ms     10
+consumer-36       access-1      1Gbps    1    10ms     10
+consumer-37       access-1      1Gbps    1    10ms     10
+consumer-38       access-1      1Gbps    1    10ms     10
+consumer-39       access-1      1Gbps    1    10ms     10
+consumer-40       access-1      1Gbps    1    10ms     10
+
+consumer-41       access-1      1Gbps    1    10ms     10
+consumer-42       access-1      1Gbps    1    10ms     10
+consumer-43       access-1      1Gbps    1    10ms     10
+consumer-44       access-1      1Gbps    1    10ms     10
+consumer-45       access-1      1Gbps    1    10ms     10
+consumer-46       access-1      1Gbps    1    10ms     10
+consumer-47       access-1      1Gbps    1    10ms     10
+consumer-48       access-1      1Gbps    1    10ms     10
+consumer-49       access-1      1Gbps    1    10ms     10
+consumer-50       access-1      1Gbps    1    10ms     10
+
+producer-1        access-1      1Gbps    1    50ms     10
+producer-2        access-1      1Gbps    1    50ms     10
+#-------------------------------------------------------------
+
+consumer-51       access-2      1Gbps    1    10ms     10
+consumer-52       access-2      1Gbps    1    10ms     10
+consumer-53       access-2      1Gbps    1    10ms     10
+consumer-54       access-2      1Gbps    1    10ms     10
+consumer-55       access-2      1Gbps    1    10ms     10
+consumer-56       access-2      1Gbps    1    10ms     10
+consumer-57       access-2      1Gbps    1    10ms     10
+consumer-58       access-2      1Gbps    1    10ms     10
+consumer-59       access-2      1Gbps    1    10ms     10
+consumer-60       access-2      1Gbps    1    10ms     10
+
+consumer-61       access-2      1Gbps    1    10ms     10
+consumer-62       access-2      1Gbps    1    10ms     10
+consumer-63       access-2      1Gbps    1    10ms     10
+consumer-64       access-2      1Gbps    1    10ms     10
+consumer-65       access-2      1Gbps    1    10ms     10
+consumer-66       access-2      1Gbps    1    10ms     10
+consumer-67       access-2      1Gbps    1    10ms     10
+consumer-68       access-2      1Gbps    1    10ms     10
+consumer-69       access-2      1Gbps    1    10ms     10
+consumer-70       access-2      1Gbps    1    10ms     10
+
+consumer-71       access-2      1Gbps    1    10ms     10
+consumer-72       access-2      1Gbps    1    10ms     10
+consumer-73       access-2      1Gbps    1    10ms     10
+consumer-74       access-2      1Gbps    1    10ms     10
+consumer-75       access-2      1Gbps    1    10ms     10
+consumer-76       access-2      1Gbps    1    10ms     10
+consumer-77       access-2      1Gbps    1    10ms     10
+consumer-78       access-2      1Gbps    1    10ms     10
+consumer-79       access-2      1Gbps    1    10ms     10
+consumer-80       access-2      1Gbps    1    10ms     10
+
+consumer-81       access-2      1Gbps    1    10ms     10
+consumer-82       access-2      1Gbps    1    10ms     10
+consumer-83       access-2      1Gbps    1    10ms     10
+consumer-84       access-2      1Gbps    1    10ms     10
+consumer-85       access-2      1Gbps    1    10ms     10
+consumer-86       access-2      1Gbps    1    10ms     10
+consumer-87       access-2      1Gbps    1    10ms     10
+consumer-88       access-2      1Gbps    1    10ms     10
+consumer-89       access-2      1Gbps    1    10ms     10
+consumer-90       access-2      1Gbps    1    10ms     10
+
+consumer-91       access-2      1Gbps    1    10ms     10
+consumer-92       access-2      1Gbps    1    10ms     10
+consumer-93       access-2      1Gbps    1    10ms     10
+consumer-94       access-2      1Gbps    1    10ms     10
+consumer-95       access-2      1Gbps    1    10ms     10
+consumer-96       access-2      1Gbps    1    10ms     10
+consumer-97       access-2      1Gbps    1    10ms     10
+consumer-98       access-2      1Gbps    1    10ms     10
+consumer-99       access-2      1Gbps    1    10ms     10
+consumer-100      access-2      1Gbps    1    10ms     10
+
+producer-3        access-2      1Gbps    1    50ms     10
+producer-4        access-2      1Gbps    1    50ms     10
+#-------------------------------------------------------------
+consumer-101      access-3      1Gbps    1    10ms     10
+consumer-102      access-3      1Gbps    1    10ms     10
+consumer-103      access-3      1Gbps    1    10ms     10
+consumer-104      access-3      1Gbps    1    10ms     10
+consumer-105      access-3      1Gbps    1    10ms     10
+consumer-106      access-3      1Gbps    1    10ms     10
+consumer-107      access-3      1Gbps    1    10ms     10
+consumer-108      access-3      1Gbps    1    10ms     10
+consumer-109      access-3      1Gbps    1    10ms     10
+consumer-110      access-3      1Gbps    1    10ms     10
+
+consumer-111      access-3      1Gbps    1    10ms     10
+consumer-112      access-3      1Gbps    1    10ms     10
+consumer-113      access-3      1Gbps    1    10ms     10
+consumer-114      access-3      1Gbps    1    10ms     10
+consumer-115      access-3      1Gbps    1    10ms     10
+consumer-116      access-3      1Gbps    1    10ms     10
+consumer-117      access-3      1Gbps    1    10ms     10
+consumer-118      access-3      1Gbps    1    10ms     10
+consumer-119      access-3      1Gbps    1    10ms     10
+consumer-120      access-3      1Gbps    1    10ms     10
+
+consumer-121      access-3      1Gbps    1    10ms     10
+consumer-122      access-3      1Gbps    1    10ms     10
+consumer-123      access-3      1Gbps    1    10ms     10
+consumer-124      access-3      1Gbps    1    10ms     10
+consumer-125      access-3      1Gbps    1    10ms     10
+consumer-126      access-3      1Gbps    1    10ms     10
+consumer-127      access-3      1Gbps    1    10ms     10
+consumer-128      access-3      1Gbps    1    10ms     10
+consumer-129      access-3      1Gbps    1    10ms     10
+consumer-130      access-3      1Gbps    1    10ms     10
+
+consumer-131      access-3      1Gbps    1    10ms     10
+consumer-132      access-3      1Gbps    1    10ms     10
+consumer-133      access-3      1Gbps    1    10ms     10
+consumer-134      access-3      1Gbps    1    10ms     10
+consumer-135      access-3      1Gbps    1    10ms     10
+consumer-136      access-3      1Gbps    1    10ms     10
+consumer-137      access-3      1Gbps    1    10ms     10
+consumer-138      access-3      1Gbps    1    10ms     10
+consumer-139      access-3      1Gbps    1    10ms     10
+consumer-140      access-3      1Gbps    1    10ms     10
+
+consumer-141      access-3      1Gbps    1    10ms     10
+consumer-142      access-3      1Gbps    1    10ms     10
+consumer-143      access-3      1Gbps    1    10ms     10
+consumer-144      access-3      1Gbps    1    10ms     10
+consumer-145      access-3      1Gbps    1    10ms     10
+consumer-146      access-3      1Gbps    1    10ms     10
+consumer-147      access-3      1Gbps    1    10ms     10
+consumer-148      access-3      1Gbps    1    10ms     10
+consumer-149      access-3      1Gbps    1    10ms     10
+consumer-150      access-3      1Gbps    1    10ms     10
+
+producer-5        access-3     1Gbps     1    50ms     10
+producer-6        access-3     1Gbps     1    50ms     10
+#------------------------------------------------------------
+consumer-151      access-4      1Gbps    1    10ms     10
+consumer-152      access-4      1Gbps    1    10ms     10
+consumer-153      access-4      1Gbps    1    10ms     10
+consumer-154      access-4      1Gbps    1    10ms     10
+consumer-155      access-4      1Gbps    1    10ms     10
+consumer-156      access-4      1Gbps    1    10ms     10
+consumer-157      access-4      1Gbps    1    10ms     10
+consumer-158      access-4      1Gbps    1    10ms     10
+consumer-159      access-4      1Gbps    1    10ms     10
+consumer-160      access-4      1Gbps    1    10ms     10
+
+consumer-161      access-4      1Gbps    1    10ms     10
+consumer-162      access-4      1Gbps    1    10ms     10
+consumer-163      access-4      1Gbps    1    10ms     10
+consumer-164      access-4      1Gbps    1    10ms     10
+consumer-165      access-4      1Gbps    1    10ms     10
+consumer-166      access-4      1Gbps    1    10ms     10
+consumer-167      access-4      1Gbps    1    10ms     10
+consumer-168      access-4      1Gbps    1    10ms     10
+consumer-169      access-4      1Gbps    1    10ms     10
+consumer-170      access-4      1Gbps    1    10ms     10
+
+consumer-171      access-4      1Gbps    1    10ms     10
+consumer-172      access-4      1Gbps    1    10ms     10
+consumer-173      access-4      1Gbps    1    10ms     10
+consumer-174      access-4      1Gbps    1    10ms     10
+consumer-175      access-4      1Gbps    1    10ms     10
+consumer-176      access-4      1Gbps    1    10ms     10
+consumer-177      access-4      1Gbps    1    10ms     10
+consumer-178      access-4      1Gbps    1    10ms     10
+consumer-179      access-4      1Gbps    1    10ms     10
+consumer-180      access-4      1Gbps    1    10ms     10
+
+consumer-181      access-4      1Gbps    1    10ms     10
+consumer-182      access-4      1Gbps    1    10ms     10
+consumer-183      access-4      1Gbps    1    10ms     10
+consumer-184      access-4      1Gbps    1    10ms     10
+consumer-185      access-4      1Gbps    1    10ms     10
+consumer-186      access-4      1Gbps    1    10ms     10
+consumer-187      access-4      1Gbps    1    10ms     10
+consumer-188      access-4      1Gbps    1    10ms     10
+consumer-189      access-4      1Gbps    1    10ms     10
+consumer-190      access-4      1Gbps    1    10ms     10
+
+consumer-191      access-4      1Gbps    1    10ms     10
+consumer-192      access-4      1Gbps    1    10ms     10
+consumer-193      access-4      1Gbps    1    10ms     10
+consumer-194      access-4      1Gbps    1    10ms     10
+consumer-195      access-4      1Gbps    1    10ms     10
+consumer-196      access-4      1Gbps    1    10ms     10
+consumer-197      access-4      1Gbps    1    10ms     10
+consumer-198      access-4      1Gbps    1    10ms     10
+consumer-199      access-4      1Gbps    1    10ms     10
+consumer-200      access-4      1Gbps    1    10ms     10
+
+producer-7        access-4      1Gbps     1   50ms     10
+producer-8        access-4      1Gbps     1   50ms     10
+#------------------------------------------------------------
+consumer-201      access-5      1Gbps    1    10ms     10
+consumer-202      access-5      1Gbps    1    10ms     10
+consumer-203      access-5      1Gbps    1    10ms     10
+consumer-204      access-5      1Gbps    1    10ms     10
+consumer-205      access-5      1Gbps    1    10ms     10
+consumer-206      access-5      1Gbps    1    10ms     10
+consumer-207      access-5      1Gbps    1    10ms     10
+consumer-208      access-5      1Gbps    1    10ms     10
+consumer-209      access-5      1Gbps    1    10ms     10
+consumer-210      access-5      1Gbps    1    10ms     10
+
+consumer-211      access-5      1Gbps    1    10ms     10
+consumer-212      access-5      1Gbps    1    10ms     10
+consumer-213      access-5      1Gbps    1    10ms     10
+consumer-214      access-5      1Gbps    1    10ms     10
+consumer-215      access-5      1Gbps    1    10ms     10
+consumer-216      access-5      1Gbps    1    10ms     10
+consumer-217      access-5      1Gbps    1    10ms     10
+consumer-218      access-5      1Gbps    1    10ms     10
+consumer-219      access-5      1Gbps    1    10ms     10
+consumer-220      access-5      1Gbps    1    10ms     10
+
+consumer-221      access-5      1Gbps    1    10ms     10
+consumer-222      access-5      1Gbps    1    10ms     10
+consumer-223      access-5      1Gbps    1    10ms     10
+consumer-224      access-5      1Gbps    1    10ms     10
+consumer-225      access-5      1Gbps    1    10ms     10
+consumer-226      access-5      1Gbps    1    10ms     10
+consumer-227      access-5      1Gbps    1    10ms     10
+consumer-228      access-5      1Gbps    1    10ms     10
+consumer-229      access-5      1Gbps    1    10ms     10
+consumer-230      access-5      1Gbps    1    10ms     10
+
+consumer-231      access-5      1Gbps    1    10ms     10
+consumer-232      access-5      1Gbps    1    10ms     10
+consumer-233      access-5      1Gbps    1    10ms     10
+consumer-234      access-5      1Gbps    1    10ms     10
+consumer-235      access-5      1Gbps    1    10ms     10
+consumer-236      access-5      1Gbps    1    10ms     10
+consumer-237      access-5      1Gbps    1    10ms     10
+consumer-238      access-5      1Gbps    1    10ms     10
+consumer-239      access-5      1Gbps    1    10ms     10
+consumer-240      access-5      1Gbps    1    10ms     10
+
+consumer-241      access-5      1Gbps    1    10ms     10
+consumer-242      access-5      1Gbps    1    10ms     10
+consumer-243      access-5      1Gbps    1    10ms     10
+consumer-244      access-5      1Gbps    1    10ms     10
+consumer-245      access-5      1Gbps    1    10ms     10
+consumer-246      access-5      1Gbps    1    10ms     10
+consumer-247      access-5      1Gbps    1    10ms     10
+consumer-248      access-5      1Gbps    1    10ms     10
+consumer-249      access-5      1Gbps    1    10ms     10
+consumer-250      access-5      1Gbps    1    10ms     10
+
+producer-9        access-5     1Gbps     1    50ms     10
+producer-10       access-5     1Gbps     1    50ms     10
+#------------------------------------------------------------
+consumer-251      access-6      1Gbps    1    10ms     10
+consumer-252      access-6      1Gbps    1    10ms     10
+consumer-253      access-6      1Gbps    1    10ms     10
+consumer-254      access-6      1Gbps    1    10ms     10
+consumer-255      access-6      1Gbps    1    10ms     10
+consumer-256      access-6      1Gbps    1    10ms     10
+consumer-257      access-6      1Gbps    1    10ms     10
+consumer-258      access-6      1Gbps    1    10ms     10
+consumer-259      access-6      1Gbps    1    10ms     10
+consumer-260      access-6      1Gbps    1    10ms     10
+
+consumer-261      access-6      1Gbps    1    10ms     10
+consumer-262      access-6      1Gbps    1    10ms     10
+consumer-263      access-6      1Gbps    1    10ms     10
+consumer-264      access-6      1Gbps    1    10ms     10
+consumer-265      access-6      1Gbps    1    10ms     10
+consumer-266      access-6      1Gbps    1    10ms     10
+consumer-267      access-6      1Gbps    1    10ms     10
+consumer-268      access-6      1Gbps    1    10ms     10
+consumer-269      access-6      1Gbps    1    10ms     10
+consumer-270      access-6      1Gbps    1    10ms     10
+
+consumer-271      access-6      1Gbps    1    10ms     10
+consumer-272      access-6      1Gbps    1    10ms     10
+consumer-273      access-6      1Gbps    1    10ms     10
+consumer-274      access-6      1Gbps    1    10ms     10
+consumer-275      access-6      1Gbps    1    10ms     10
+consumer-276      access-6      1Gbps    1    10ms     10
+consumer-277      access-6      1Gbps    1    10ms     10
+consumer-278      access-6      1Gbps    1    10ms     10
+consumer-279      access-6      1Gbps    1    10ms     10
+consumer-280      access-6      1Gbps    1    10ms     10
+
+consumer-281      access-6      1Gbps    1    10ms     10
+consumer-282      access-6      1Gbps    1    10ms     10
+consumer-283      access-6      1Gbps    1    10ms     10
+consumer-284      access-6      1Gbps    1    10ms     10
+consumer-285      access-6      1Gbps    1    10ms     10
+consumer-286      access-6      1Gbps    1    10ms     10
+consumer-287      access-6      1Gbps    1    10ms     10
+consumer-288      access-6      1Gbps    1    10ms     10
+consumer-289      access-6      1Gbps    1    10ms     10
+consumer-290      access-6      1Gbps    1    10ms     10
+
+consumer-291      access-6      1Gbps    1    10ms     10
+consumer-292      access-6      1Gbps    1    10ms     10
+consumer-293      access-6      1Gbps    1    10ms     10
+consumer-294      access-6      1Gbps    1    10ms     10
+consumer-295      access-6      1Gbps    1    10ms     10
+consumer-296      access-6      1Gbps    1    10ms     10
+consumer-297      access-6      1Gbps    1    10ms     10
+consumer-298      access-6      1Gbps    1    10ms     10
+consumer-299      access-6      1Gbps    1    10ms     10
+consumer-300      access-6      1Gbps    1    10ms     10
+
+producer-11       access-6      1Gbps    1    50ms     10
+producer-12       access-6      1Gbps    1    50ms     10
+#------------------------------------------------------------
+consumer-301      access-7      1Gbps    1    10ms     10
+consumer-302      access-7      1Gbps    1    10ms     10
+consumer-303      access-7      1Gbps    1    10ms     10
+consumer-304      access-7      1Gbps    1    10ms     10
+consumer-305      access-7      1Gbps    1    10ms     10
+consumer-306      access-7      1Gbps    1    10ms     10
+consumer-307      access-7      1Gbps    1    10ms     10
+consumer-308      access-7      1Gbps    1    10ms     10
+consumer-309      access-7      1Gbps    1    10ms     10
+consumer-310      access-7      1Gbps    1    10ms     10
+
+consumer-311      access-7      1Gbps    1    10ms     10
+consumer-312      access-7      1Gbps    1    10ms     10
+consumer-313      access-7      1Gbps    1    10ms     10
+consumer-314      access-7      1Gbps    1    10ms     10
+consumer-315      access-7      1Gbps    1    10ms     10
+consumer-316      access-7      1Gbps    1    10ms     10
+consumer-317      access-7      1Gbps    1    10ms     10
+consumer-318      access-7      1Gbps    1    10ms     10
+consumer-319      access-7      1Gbps    1    10ms     10
+consumer-320      access-7      1Gbps    1    10ms     10
+
+consumer-321      access-7      1Gbps    1    10ms     10
+consumer-322      access-7      1Gbps    1    10ms     10
+consumer-323      access-7      1Gbps    1    10ms     10
+consumer-324      access-7      1Gbps    1    10ms     10
+consumer-325      access-7      1Gbps    1    10ms     10
+consumer-326      access-7      1Gbps    1    10ms     10
+consumer-327      access-7      1Gbps    1    10ms     10
+consumer-328      access-7      1Gbps    1    10ms     10
+consumer-329      access-7      1Gbps    1    10ms     10
+consumer-330      access-7      1Gbps    1    10ms     10
+
+consumer-331      access-7      1Gbps    1    10ms     10
+consumer-332      access-7      1Gbps    1    10ms     10
+consumer-333      access-7      1Gbps    1    10ms     10
+consumer-334      access-7      1Gbps    1    10ms     10
+consumer-335      access-7      1Gbps    1    10ms     10
+consumer-336      access-7      1Gbps    1    10ms     10
+consumer-337      access-7      1Gbps    1    10ms     10
+consumer-338      access-7      1Gbps    1    10ms     10
+consumer-339      access-7      1Gbps    1    10ms     10
+consumer-340      access-7      1Gbps    1    10ms     10
+
+consumer-341      access-7      1Gbps    1    10ms     10
+consumer-342      access-7      1Gbps    1    10ms     10
+consumer-343      access-7      1Gbps    1    10ms     10
+consumer-344      access-7      1Gbps    1    10ms     10
+consumer-345      access-7      1Gbps    1    10ms     10
+consumer-346      access-7      1Gbps    1    10ms     10
+consumer-347      access-7      1Gbps    1    10ms     10
+consumer-348      access-7      1Gbps    1    10ms     10
+consumer-349      access-7      1Gbps    1    10ms     10
+consumer-350      access-7      1Gbps    1    10ms     10
+
+producer-13       access-7      1Gbps    1    50ms     10
+producer-14       access-7      1Gbps    1    50ms     10
+#-----------------------------------------------------------
+consumer-351      access-8      1Gbps    1    10ms     10
+consumer-352      access-8      1Gbps    1    10ms     10
+consumer-353      access-8      1Gbps    1    10ms     10
+consumer-354      access-8      1Gbps    1    10ms     10
+consumer-355      access-8      1Gbps    1    10ms     10
+consumer-356      access-8      1Gbps    1    10ms     10
+consumer-357      access-8      1Gbps    1    10ms     10
+consumer-358      access-8      1Gbps    1    10ms     10
+consumer-359      access-8      1Gbps    1    10ms     10
+consumer-360      access-8      1Gbps    1    10ms     10
+
+consumer-361      access-8      1Gbps    1    10ms     10
+consumer-362      access-8      1Gbps    1    10ms     10
+consumer-363      access-8      1Gbps    1    10ms     10
+consumer-364      access-8      1Gbps    1    10ms     10
+consumer-365      access-8      1Gbps    1    10ms     10
+consumer-366      access-8      1Gbps    1    10ms     10
+consumer-367      access-8      1Gbps    1    10ms     10
+consumer-368      access-8      1Gbps    1    10ms     10
+consumer-369      access-8      1Gbps    1    10ms     10
+consumer-370      access-8      1Gbps    1    10ms     10
+
+consumer-371      access-8      1Gbps    1    10ms     10
+consumer-372      access-8      1Gbps    1    10ms     10
+consumer-373      access-8      1Gbps    1    10ms     10
+consumer-374      access-8      1Gbps    1    10ms     10
+consumer-375      access-8      1Gbps    1    10ms     10
+consumer-376      access-8      1Gbps    1    10ms     10
+consumer-377      access-8      1Gbps    1    10ms     10
+consumer-378      access-8      1Gbps    1    10ms     10
+consumer-379      access-8      1Gbps    1    10ms     10
+consumer-380      access-8      1Gbps    1    10ms     10
+
+consumer-381      access-8      1Gbps    1    10ms     10
+consumer-382      access-8      1Gbps    1    10ms     10
+consumer-383      access-8      1Gbps    1    10ms     10
+consumer-384      access-8      1Gbps    1    10ms     10
+consumer-385      access-8      1Gbps    1    10ms     10
+consumer-386      access-8      1Gbps    1    10ms     10
+consumer-387      access-8      1Gbps    1    10ms     10
+consumer-388      access-8      1Gbps    1    10ms     10
+consumer-389      access-8      1Gbps    1    10ms     10
+consumer-390      access-8      1Gbps    1    10ms     10
+
+consumer-391      access-8      1Gbps    1    10ms     10
+consumer-392      access-8      1Gbps    1    10ms     10
+consumer-393      access-8      1Gbps    1    10ms     10
+consumer-394      access-8      1Gbps    1    10ms     10
+consumer-395      access-8      1Gbps    1    10ms     10
+consumer-396      access-8      1Gbps    1    10ms     10
+consumer-397      access-8      1Gbps    1    10ms     10
+consumer-398      access-8      1Gbps    1    10ms     10
+consumer-399      access-8      1Gbps    1    10ms     10
+consumer-400      access-8      1Gbps    1    10ms     10
+
+producer-15       access-8      1Gbps    1    50ms     10
+producer-16       access-8      1Gbps    1    50ms     10
+#------------------------------------------------------------
+consumer-401      access-9      1Gbps    1    10ms     10
+consumer-402      access-9      1Gbps    1    10ms     10
+consumer-403      access-9      1Gbps    1    10ms     10
+consumer-404      access-9      1Gbps    1    10ms     10
+consumer-405      access-9      1Gbps    1    10ms     10
+consumer-406      access-9      1Gbps    1    10ms     10
+consumer-407      access-9      1Gbps    1    10ms     10
+consumer-408      access-9      1Gbps    1    10ms     10
+consumer-409      access-9      1Gbps    1    10ms     10
+consumer-410      access-9      1Gbps    1    10ms     10
+
+consumer-411      access-9      1Gbps    1    10ms     10
+consumer-412      access-9      1Gbps    1    10ms     10
+consumer-413      access-9      1Gbps    1    10ms     10
+consumer-414      access-9      1Gbps    1    10ms     10
+consumer-415      access-9      1Gbps    1    10ms     10
+consumer-416      access-9      1Gbps    1    10ms     10
+consumer-417      access-9      1Gbps    1    10ms     10
+consumer-418      access-9      1Gbps    1    10ms     10
+consumer-419      access-9      1Gbps    1    10ms     10
+consumer-420      access-9      1Gbps    1    10ms     10
+
+consumer-421      access-9      1Gbps    1    10ms     10
+consumer-422      access-9      1Gbps    1    10ms     10
+consumer-423      access-9      1Gbps    1    10ms     10
+consumer-424      access-9      1Gbps    1    10ms     10
+consumer-425      access-9      1Gbps    1    10ms     10
+consumer-426      access-9      1Gbps    1    10ms     10
+consumer-427      access-9      1Gbps    1    10ms     10
+consumer-428      access-9      1Gbps    1    10ms     10
+consumer-429      access-9      1Gbps    1    10ms     10
+consumer-430      access-9      1Gbps    1    10ms     10
+
+consumer-431      access-9      1Gbps    1    10ms     10
+consumer-432      access-9      1Gbps    1    10ms     10
+consumer-433      access-9      1Gbps    1    10ms     10
+consumer-434      access-9      1Gbps    1    10ms     10
+consumer-435      access-9      1Gbps    1    10ms     10
+consumer-436      access-9      1Gbps    1    10ms     10
+consumer-437      access-9      1Gbps    1    10ms     10
+consumer-438      access-9      1Gbps    1    10ms     10
+consumer-439      access-9      1Gbps    1    10ms     10
+consumer-440      access-9      1Gbps    1    10ms     10
+
+consumer-441      access-9      1Gbps    1    10ms     10
+consumer-442      access-9      1Gbps    1    10ms     10
+consumer-443      access-9      1Gbps    1    10ms     10
+consumer-444      access-9      1Gbps    1    10ms     10
+consumer-445      access-9      1Gbps    1    10ms     10
+consumer-446      access-9      1Gbps    1    10ms     10
+consumer-447      access-9      1Gbps    1    10ms     10
+consumer-448      access-9      1Gbps    1    10ms     10
+consumer-449      access-9      1Gbps    1    10ms     10
+consumer-450      access-9      1Gbps    1    10ms     10
+
+producer-17       access-9      1Gbps    1    50ms     10
+producer-18       access-9      1Gbps    1    50ms     10
+#-----------------------------------------------------------
+consumer-451      access-10     1Gbps    1    10ms     10
+consumer-452      access-10     1Gbps    1    10ms     10
+consumer-453      access-10     1Gbps    1    10ms     10
+consumer-454      access-10     1Gbps    1    10ms     10
+consumer-455      access-10     1Gbps    1    10ms     10
+consumer-456      access-10     1Gbps    1    10ms     10
+consumer-457      access-10     1Gbps    1    10ms     10
+consumer-458      access-10     1Gbps    1    10ms     10
+consumer-459      access-10     1Gbps    1    10ms     10
+consumer-460      access-10     1Gbps    1    10ms     10
+
+consumer-461      access-10     1Gbps    1    10ms     10
+consumer-462      access-10     1Gbps    1    10ms     10
+consumer-463      access-10     1Gbps    1    10ms     10
+consumer-464      access-10     1Gbps    1    10ms     10
+consumer-465      access-10     1Gbps    1    10ms     10
+consumer-466      access-10     1Gbps    1    10ms     10
+consumer-467      access-10     1Gbps    1    10ms     10
+consumer-468      access-10     1Gbps    1    10ms     10
+consumer-469      access-10     1Gbps    1    10ms     10
+consumer-470      access-10     1Gbps    1    10ms     10
+
+consumer-471      access-10     1Gbps    1    10ms     10
+consumer-472      access-10     1Gbps    1    10ms     10
+consumer-473      access-10     1Gbps    1    10ms     10
+consumer-474      access-10     1Gbps    1    10ms     10
+consumer-475      access-10     1Gbps    1    10ms     10
+consumer-476      access-10     1Gbps    1    10ms     10
+consumer-477      access-10     1Gbps    1    10ms     10
+consumer-478      access-10     1Gbps    1    10ms     10
+consumer-479      access-10     1Gbps    1    10ms     10
+consumer-480      access-10     1Gbps    1    10ms     10
+
+consumer-481      access-10     1Gbps    1    10ms     10
+consumer-482      access-10     1Gbps    1    10ms     10
+consumer-483      access-10     1Gbps    1    10ms     10
+consumer-484      access-10     1Gbps    1    10ms     10
+consumer-485      access-10     1Gbps    1    10ms     10
+consumer-486      access-10     1Gbps    1    10ms     10
+consumer-487      access-10     1Gbps    1    10ms     10
+consumer-488      access-10     1Gbps    1    10ms     10
+consumer-489      access-10     1Gbps    1    10ms     10
+consumer-490      access-10     1Gbps    1    10ms     10
+
+consumer-491      access-10     1Gbps    1    10ms     10
+consumer-492      access-10     1Gbps    1    10ms     10
+consumer-493      access-10     1Gbps    1    10ms     10
+consumer-494      access-10     1Gbps    1    10ms     10
+consumer-495      access-10     1Gbps    1    10ms     10
+consumer-496      access-10     1Gbps    1    10ms     10
+consumer-497      access-10     1Gbps    1    10ms     10
+consumer-498      access-10     1Gbps    1    10ms     10
+consumer-499      access-10     1Gbps    1    10ms     10
+consumer-500      access-10     1Gbps    1    10ms     10
+
+producer-19       access-10     1Gbps    1    50ms     10
+producer-20       access-10     1Gbps    1    50ms     10
+#------------------------------------------------------------
+# communication between core and access nodes
+access-1            core-1     1Gbps     1    10ms     10
+access-2            core-2     1Gbps     1    10ms     10
+access-3            core-3     1Gbps     1    10ms     10
+access-4            core-4     1Gbps     1    10ms     10
+access-5            core-5     1Gbps     1    10ms     10
+access-6            core-6     1Gbps     1    10ms     10
+access-7            core-7     1Gbps     1    10ms     10
+access-8            core-8     1Gbps     1    10ms     10
+access-9            core-9     1Gbps     1    10ms     10
+access-10           core-10    1Gbps     1    10ms     10
+# communication between core nodes
+core-1              core-2     1Gbps       1    10ms     10
+core-2              core-3     1Gbps       1    10ms     10
+core-3              core-4     1Gbps       1    10ms     10
+core-4              core-5     1Gbps       1    10ms     10
+core-5              core-6     1Gbps       1    10ms     10
+core-6              core-7     1Gbps       1    10ms     10
+core-7              core-8     1Gbps       1    10ms     10
+core-8              core-9     1Gbps       1    10ms     10
+core-9              core-10    1Gbps       1    10ms     10
+core-10             core-1     1Gbps       1    10ms     10
+core-11             core-2     1Gbps       1    10ms     10
+core-12             core-4     1Gbps       1    10ms     10
+core-13             core-6     1Gbps       1    10ms     10
+core-14             core-8     1Gbps       1    10ms     10
+core-15             core-10    1Gbps       1    10ms     10
+core-16             core-1     1Gbps       1    10ms     10
+core-17             core-10    1Gbps       1    10ms     10
+core-18             core-6     1Gbps       1    10ms     10
+core-19             core-7     1Gbps       1    10ms     10
+core-20             core-9     1Gbps       1    10ms     10
+#------------------------------------------------------------

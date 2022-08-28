@@ -1,0 +1,328 @@
+# any empty lines and lines starting with '#' symbol is ignored
+#
+# The file should contain exactly two sections: router and link, each starting with the corresponding keyword
+#
+# router section defines topology nodes and their relative positions (e.g., to use in visualizer)
+router
+
+# each line in this section represents one router and should have the following data
+# node     comment          yPos    xPos
+
+
+########### control-layer ################
+R0          CONTROLLER        18      9
+
+########### access-network-A #############
+RA          NODE-1            7     7
+
+C1A         CONSUMER          5     5
+C2A         CONSUMER          5     4
+C3A         CONSUMER          5     3
+C4A         CONSUMER          5     2
+C5A         CONSUMER          5     1
+C6A         CONSUMER          4     5
+C7A         CONSUMER          4     4
+C8A         CONSUMER          4     3
+C9A         CONSUMER          4     2
+C10A        CONSUMER          4     1
+C11A        CONSUMER          3     5
+C12A        CONSUMER          3     4
+C13A        CONSUMER          3     3
+C14A        CONSUMER          3     2
+C15A        CONSUMER          3     1
+C16A        CONSUMER          2     5
+C17A        CONSUMER          2     4
+C18A        CONSUMER          2     3
+C19A        CONSUMER          2     2
+C20A        CONSUMER          2     1
+##########################################
+P1A         PRODUCER          6       5
+P3A         PRODUCER          6       3
+P5A         PRODUCER          6       1
+P7A         PRODUCER          4       6
+P9A         PRODUCER          2       6
+
+##########################################
+
+
+
+#--------- access-network-B---------------#
+RB          NODE-1            7       11
+
+C1B         CONSUMER          5       13
+C2B         CONSUMER          5       14
+C3B         CONSUMER          5       15
+C4B         CONSUMER          5       16
+C5B         CONSUMER          5       17
+C6B         CONSUMER          4       13
+C7B         CONSUMER          4       14
+C8B         CONSUMER          4       15
+C9B         CONSUMER          4       16
+C10B        CONSUMER          4       17
+C11B        CONSUMER          3       13
+C12B        CONSUMER          3       14
+C13B        CONSUMER          3       15
+C14B        CONSUMER          3       16
+C15B        CONSUMER          3       17
+C16B        CONSUMER          2       13
+C17B        CONSUMER          2       14
+C18B        CONSUMER          2       15
+C19B        CONSUMER          2       16
+C20B        CONSUMER          2       17
+
+##########################################
+P1B         PRODUCER          6       13
+P3B         PRODUCER          6       15
+P5B         PRODUCER          6       17
+P7B         PRODUCER          4       12
+P9B         PRODUCER          2       12
+##########################################
+
+########### access-network-C #############
+RC          NODE-1            11      11
+
+C1C         CONSUMER          13      13
+C2C         CONSUMER          13      14
+C3C         CONSUMER          13      15
+C4C         CONSUMER          13      16
+C5C         CONSUMER          13      17
+C6C         CONSUMER          14      13
+C7C         CONSUMER          14      14
+C8C         CONSUMER          14      15
+C9C         CONSUMER          14      16
+C10C        CONSUMER          14      17
+C11C        CONSUMER          15      13
+C12C        CONSUMER          15      14
+C13C        CONSUMER          15      15
+C14C        CONSUMER          15      16
+C15C        CONSUMER          15      17
+C16C        CONSUMER          16      13
+C17C        CONSUMER          16      14
+C18C        CONSUMER          16      15
+C19C        CONSUMER          16      16
+C20C        CONSUMER          16      17
+##########################################
+P1C         PRODUCER          12      13
+P3C         PRODUCER          12      15
+P5C         PRODUCER          12      17
+P7C         PRODUCER          14      12
+P9C         PRODUCER          16      12
+##########################################
+
+
+
+#--------- access-network-D---------------#
+RD          NODE-1            11      7
+
+C1D         CONSUMER          13      5
+C2D         CONSUMER          13      4
+C3D         CONSUMER          13      3
+C4D         CONSUMER          13      2
+C5D         CONSUMER          13      1
+C6D         CONSUMER          14      5
+C7D         CONSUMER          14      4
+C8D         CONSUMER          14      3
+C9D         CONSUMER          14      2
+C10D        CONSUMER          14      1
+C11D        CONSUMER          15      5
+C12D        CONSUMER          15      4
+C13D        CONSUMER          15      3
+C14D        CONSUMER          15      2
+C15D        CONSUMER          15      1
+C16D        CONSUMER          16      5
+C17D        CONSUMER          16      4
+C18D        CONSUMER          16      3
+C19D        CONSUMER          16      2
+C20D        CONSUMER          16      1
+##########################################
+P1D         PRODUCER          12      5
+P3D         PRODUCER          12      3
+P5D         PRODUCER          12      1
+P7D         PRODUCER          14      6
+P9D         PRODUCER          16      6
+##########################################
+
+
+
+########### core-network  #############
+R1        NODE              10      8
+R2        NODE              10      10
+R3        NODE              9       8
+R4        NODE              9       9
+R5        NODE              9       10
+R6        NODE              8       8
+R7        NODE              8       8.5
+R8        NODE              8       10
+
+
+
+# Note that `node` can be any string. It is possible to access to the node by name using Names::Find, see examples.
+
+# link section defines point-to-point links between nodes and characteristics of these links
+link
+
+# Each line should be in the following format (only first two are required, the rest can be omitted)
+
+# srcNode   dstNode     bandwidth   metric  delay   queue
+
+# bandwidth: link bandwidth
+
+# metric: routing metric
+
+# delay:  link delay
+
+# queue:  MaxPackets for transmission queue on the link (both directions)
+
+
+
+####### access-network-A #####################
+C1A       RA     1Gbps     1    10ms     10
+C2A       RA     1Gbps     1    10ms     10
+C3A       RA     1Gbps     1    10ms     10
+C4A       RA     1Gbps     1    10ms     10
+C5A       RA     1Gbps     1    10ms     10
+C6A       RA     1Gbps     1    10ms     10
+C7A       RA     1Gbps     1    10ms     10
+C8A       RA     1Gbps     1    10ms     10
+C9A       RA     1Gbps     1    10ms     10
+C10A      RA     1Gbps     1    10ms     10
+C11A      RA     1Gbps     1    10ms     10
+C12A      RA     1Gbps     1    10ms     10
+C13A      RA     1Gbps     1    10ms     10
+C14A      RA     1Gbps     1    10ms     10
+C15A      RA     1Gbps     1    10ms     10
+C16A      RA     1Gbps     1    10ms     10
+C17A      RA     1Gbps     1    10ms     10
+C18A      RA     1Gbps     1    10ms     10
+C19A      RA     1Gbps     1    10ms     10
+C20A      RA     1Gbps     1    10ms     10
+
+#############################################
+P1A       RA     1Gbps     1    10ms     10
+P3A       RA     1Gbps     1    10ms     10
+P5A       RA     1Gbps     1    10ms     10
+P7A       RA     1Gbps     1    10ms     10
+P9A       RA     1Gbps     1    10ms     10
+
+
+####### access-network-B #####################
+C1B       RB     1Gbps     1    10ms     10
+C2B       RB     1Gbps     1    10ms     10
+C3B       RB     1Gbps     1    10ms     10
+C4B       RB     1Gbps     1    10ms     10
+C5B       RB     1Gbps     1    10ms     10
+C6B       RB     1Gbps     1    10ms     10
+C7B       RB     1Gbps     1    10ms     10
+C8B       RB     1Gbps     1    10ms     10
+C9B       RB     1Gbps     1    10ms     10
+C10B      RB     1Gbps     1    10ms     10
+C11B      RB     1Gbps     1    10ms     10
+C12B      RB     1Gbps     1    10ms     10
+C13B      RB     1Gbps     1    10ms     10
+C14B      RB     1Gbps     1    10ms     10
+C15B      RB     1Gbps     1    10ms     10
+C16B      RB     1Gbps     1    10ms     10
+C17B      RB     1Gbps     1    10ms     10
+C18B      RB     1Gbps     1    10ms     10
+C19B      RB     1Gbps     1    10ms     10
+C20B      RB     1Gbps     1    10ms     10
+#############################################
+P1B       RB     1Gbps     1    10ms     10
+P3B       RB     1Gbps     1    10ms     10
+P5B       RB     1Gbps     1    10ms     10
+P7B       RB     1Gbps     1    10ms     10
+P9B       RB     1Gbps     1    10ms     10
+
+
+####### access-network-C #####################
+C1C       RC     1Gbps     1    10ms     10
+C2C       RC     1Gbps     1    10ms     10
+C3C       RC     1Gbps     1    10ms     10
+C4C       RC     1Gbps     1    10ms     10
+C5C       RC     1Gbps     1    10ms     10
+C6C       RC     1Gbps     1    10ms     10
+C7C       RC     1Gbps     1    10ms     10
+C8C       RC     1Gbps     1    10ms     10
+C9C       RC     1Gbps     1    10ms     10
+C10C      RC     1Gbps     1    10ms     10
+C11C      RC     1Gbps     1    10ms     10
+C12C      RC     1Gbps     1    10ms     10
+C13C      RC     1Gbps     1    10ms     10
+C14C      RC     1Gbps     1    10ms     10
+C15C      RC     1Gbps     1    10ms     10
+C16C      RC     1Gbps     1    10ms     10
+C17C      RC     1Gbps     1    10ms     10
+C18C      RC     1Gbps     1    10ms     10
+C19C      RC     1Gbps     1    10ms     10
+C20C      RC     1Gbps     1    10ms     10
+#############################################
+P1C       RC     1Gbps     1    10ms     10
+P3C       RC     1Gbps     1    10ms     10
+P5C       RC     1Gbps     1    10ms     10
+P7C       RC     1Gbps     1    10ms     10
+P9C       RC     1Gbps     1    10ms     10
+
+
+####### access-network-D #####################
+C1D       RD     1Gbps     1    10ms     10
+C2D       RD     1Gbps     1    10ms     10
+C3D       RD     1Gbps     1    10ms     10
+C4D       RD     1Gbps     1    10ms     10
+C5D       RD     1Gbps     1    10ms     10
+C6D       RD     1Gbps     1    10ms     10
+C7D       RD     1Gbps     1    10ms     10
+C8D       RD     1Gbps     1    10ms     10
+C9D       RD     1Gbps     1    10ms     10
+C10D      RD     1Gbps     1    10ms     10
+C11D      RD     1Gbps     1    10ms     10
+C12D      RD     1Gbps     1    10ms     10
+C13D      RD     1Gbps     1    10ms     10
+C14D      RD     1Gbps     1    10ms     10
+C15D      RD     1Gbps     1    10ms     10
+C16D      RD     1Gbps     1    10ms     10
+C17D      RD     1Gbps     1    10ms     10
+C18D      RD     1Gbps     1    10ms     10
+C19D      RD     1Gbps     1    10ms     10
+C20D      RD     1Gbps     1    10ms     10
+
+#############################################
+P1D       RD     1Gbps     1    10ms     10
+P3D       RD     1Gbps     1    10ms     10
+P5D       RD     1Gbps     1    10ms     10
+P7D       RD     1Gbps     1    10ms     10
+P9D       RD     1Gbps     1    10ms     10
+
+########### core network with access ########
+RA       R6      10Gbps     1    10ms     10
+RB       R8      10Gbps     1    10ms     10
+RC       R2      10Gbps    1    10ms     10
+RD       R1      10Gbps    1    10ms     10
+
+
+########### core network    #################
+R1       R2      10Gbps     1    10ms     10
+R1       R3      10Gbps     1    10ms     10
+R2       R5      10Gbps     1    10ms     10
+R3       R6      10Gbps     1    10ms     10
+R3       R7      10Gbps     1    10ms     10
+R4       R5      10Gbps     1    10ms     10
+R4       R7      10Gbps     1    10ms     10
+R5       R8      10Gbps     1    10ms     10
+R6       R7      10Gbps     1    10ms     10
+R7       R8      10Gbps     1    10ms     10
+
+
+########### controller-communication #################
+R0       R1      1Gbps     1    10ms     10
+R0       R2      1Gbps     1    10ms     10
+R0       R3      1Gbps     1    10ms     10
+R0       R4      1Gbps     1    10ms     10
+R0       R5      1Gbps     1    10ms     10
+R0       R6      1Gbps     1    10ms     10
+R0       R7      1Gbps     1    10ms     10
+R0       R8      1Gbps     1    10ms     10
+
+R0       RA      1Gbps     1    10ms     10
+R0       RB      1Gbps     1    10ms     10
+R0       RC      1Gbps     1    10ms     10
+R0       RD      1Gbps     1    10ms     10

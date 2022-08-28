@@ -1,0 +1,375 @@
+# any empty lines and lines starting with '#' symbol is ignored
+#
+# The file should contain exactly two sections: router and link, each starting with the corresponding keyword
+#
+# router section defines topology nodes and their relative positions (e.g., to use in visualizer)
+router
+
+# each line in this section represents one router and should have the following data
+# node               comment          yPos    xPos
+
+#------------------ controller------------------
+
+
+# ----------- ----consumer nodes ---------------
+consumer-1        consumer-node       0       0
+consumer-2        consumer-node       0       0
+consumer-3        consumer-node       0       0
+consumer-4        consumer-node       0       0
+consumer-5        consumer-node       0       0
+consumer-6        consumer-node       0       0
+consumer-7        consumer-node       0       0
+consumer-8        consumer-node       0       0
+consumer-9        consumer-node       0       0
+consumer-10       consumer-node       0       0
+
+consumer-11       consumer-node       0       0
+consumer-12       consumer-node       0       0
+consumer-13       consumer-node       0       0
+consumer-14       consumer-node       0       0  
+consumer-15       consumer-node       0       0
+consumer-16       consumer-node       0       0  
+consumer-17       consumer-node       0       0
+consumer-18       consumer-node       0       0  
+consumer-19       consumer-node       0       0
+consumer-20       consumer-node       0       0         
+
+consumer-21       consumer-node       0       0
+consumer-22       consumer-node       0       0
+consumer-23       consumer-node       0       0
+consumer-24       consumer-node       0       0  
+consumer-25       consumer-node       0       0
+consumer-26       consumer-node       0       0  
+consumer-27       consumer-node       0       0
+consumer-28       consumer-node       0       0  
+consumer-29       consumer-node       0       0
+consumer-30       consumer-node       0       0  
+
+consumer-31       consumer-node       0       0
+consumer-32       consumer-node       0       0
+consumer-33       consumer-node       0       0
+consumer-34       consumer-node       0       0  
+consumer-35       consumer-node       0       0
+consumer-36       consumer-node       0       0  
+consumer-37       consumer-node       0       0
+consumer-38       consumer-node       0       0  
+consumer-39       consumer-node       0       0
+consumer-40       consumer-node       0       0  
+
+consumer-41       consumer-node       0       0
+consumer-42       consumer-node       0       0
+consumer-43       consumer-node       0       0
+consumer-44       consumer-node       0       0  
+consumer-45       consumer-node       0       0
+consumer-46       consumer-node       0       0  
+consumer-47       consumer-node       0       0
+consumer-48       consumer-node       0       0  
+consumer-49       consumer-node       0       0
+consumer-50       consumer-node       0       0
+
+consumer-51       consumer-node       0       0
+consumer-52       consumer-node       0       0
+consumer-53       consumer-node       0       0
+consumer-54       consumer-node       0       0  
+consumer-55       consumer-node       0       0
+consumer-56       consumer-node       0       0  
+consumer-57       consumer-node       0       0
+consumer-58       consumer-node       0       0  
+consumer-59       consumer-node       0       0
+consumer-60       consumer-node       0       0  
+
+consumer-61       consumer-node       0       0
+consumer-62       consumer-node       0       0
+consumer-63       consumer-node       0       0
+consumer-64       consumer-node       0       0  
+consumer-65       consumer-node       0       0
+consumer-66       consumer-node       0       0  
+consumer-67       consumer-node       0       0
+consumer-68       consumer-node       0       0  
+consumer-69       consumer-node       0       0
+consumer-70       consumer-node       0       0  
+
+consumer-71       consumer-node       0       0
+consumer-72       consumer-node       0       0
+consumer-73       consumer-node       0       0
+consumer-74       consumer-node       0       0  
+consumer-75       consumer-node       0       0
+consumer-76       consumer-node       0       0  
+consumer-77       consumer-node       0       0
+consumer-78       consumer-node       0       0  
+consumer-79       consumer-node       0       0
+consumer-80       consumer-node       0       0  
+
+consumer-81       consumer-node       0       0
+consumer-82       consumer-node       0       0
+consumer-83       consumer-node       0       0
+consumer-84       consumer-node       0       0  
+consumer-85       consumer-node       0       0
+consumer-86       consumer-node       0       0  
+consumer-87       consumer-node       0       0
+consumer-88       consumer-node       0       0  
+consumer-89       consumer-node       0       0
+consumer-90       consumer-node       0       0  
+
+consumer-91       consumer-node       0       0
+consumer-92       consumer-node       0       0
+consumer-93       consumer-node       0       0
+consumer-94       consumer-node       0       0  
+consumer-95       consumer-node       0       0
+consumer-96       consumer-node       0       0  
+consumer-97       consumer-node       0       0
+consumer-98       consumer-node       0       0  
+consumer-99       consumer-node       0       0
+consumer-100      consumer-node       0       0  
+
+# ----------------producer nodes ---------------
+producer-1        producer-node       0       0
+producer-2        producer-node       0       0
+
+producer-3        producer-node       0       0
+producer-4        producer-node       0       0
+
+producer-5        producer-node       0       0
+producer-6        producer-node       0       0
+
+producer-7        producer-node       0       0
+producer-8        producer-node       0       0
+
+producer-9        producer-node       0       0
+producer-10       producer-node       0       0
+
+producer-11       producer-node       0       0
+producer-12       producer-node       0       0
+
+producer-13       producer-node       0       0
+producer-14       producer-node       0       0
+
+producer-15       producer-node       0       0
+producer-16       producer-node       0       0
+
+producer-17       producer-node       0       0
+producer-18       producer-node       0       0
+
+producer-19       producer-node       0       0
+producer-20       producer-node       0       0
+
+# ---------- access nodes -------------
+access-1            access-node       0       0
+access-2            access-node       0       0
+access-3            access-node       0       0
+access-4            access-node       0       0
+access-5            access-node       0       0
+access-6            access-node       0       0
+access-7            access-node       0       0
+access-8            access-node       0       0
+access-9            access-node       0       0
+access-10           access-node       0       0
+
+# ---------- core nodes -------------
+core-1               core-node        0       0
+core-2               core-node        0       0
+core-3               core-node        0       0
+core-4               core-node        0       0
+core-5               core-node        0       0
+core-6               core-node        0       0
+core-7               core-node        0       0
+core-8               core-node        0       0
+core-9               core-node        0       0
+core-10              core-node        0       0
+core-11              core-node        0       0
+core-12              core-node        0       0
+core-13              core-node        0       0
+core-14              core-node        0       0
+core-15              core-node        0       0
+core-16              core-node        0       0
+core-17              core-node        0       0
+core-18              core-node        0       0
+core-19              core-node        0       0
+core-20              core-node        0       0
+
+# Note that `node` can be any string. It is possible to access to the node by name using Names::Find, see examples.
+# link section defines point-to-point links between nodes and characteristics of these links
+link
+# Each line should be in the following format (only first two are required, the rest can be omitted)
+# srcNode   dstNode     bandwidth   metric  delay   queue
+# bandwidth: link bandwidth
+# metric: routing metric
+# delay:  link delay
+# queue:  MaxPackets for transmission queue on the link (both directions)
+# link between core and access network
+# this should give us a circle of core network
+
+# communication between consumers and access nodes
+consumer-1        access-1      512Mbps     1    10ms     10
+consumer-2        access-1      512Mbps     1    10ms     10
+consumer-3        access-1      512Mbps     1    10ms     10
+consumer-4        access-1      512Mbps     1    10ms     10
+consumer-5        access-1      512Mbps     1    10ms     10
+consumer-6        access-1      512Mbps     1    10ms     10
+consumer-7        access-1      512Mbps     1    10ms     10
+consumer-8        access-1      512Mbps     1    10ms     10
+consumer-9        access-1      512Mbps     1    10ms     10
+consumer-10       access-1      512Mbps     1    10ms     10
+
+producer-1        access-1      512Mbps     1    50ms     10
+producer-2        access-1      512Mbps     1    50ms     10
+#-------------------------------------------------------------
+consumer-11       access-2      512Mbps     1    10ms     10
+consumer-12       access-2      512Mbps     1    10ms     10
+consumer-13       access-2      512Mbps     1    10ms     10
+consumer-14       access-2      512Mbps     1    10ms     10
+consumer-15       access-2      512Mbps     1    10ms     10
+consumer-16       access-2      512Mbps     1    10ms     10
+consumer-17       access-2      512Mbps     1    10ms     10
+consumer-18       access-2      512Mbps     1    10ms     10
+consumer-19       access-2      512Mbps     1    10ms     10
+consumer-20       access-2      512Mbps     1    10ms     10
+
+producer-3        access-2      512Mbps     1    50ms     10
+producer-4        access-2      512Mbps     1    50ms     10
+#-------------------------------------------------------------
+consumer-21       access-3      512Mbps     1    10ms     10
+consumer-22       access-3      512Mbps     1    10ms     10
+consumer-23       access-3      512Mbps     1    10ms     10
+consumer-24       access-3      512Mbps     1    10ms     10
+consumer-25       access-3      512Mbps     1    10ms     10
+consumer-26       access-3      512Mbps     1    10ms     10
+consumer-27       access-3      512Mbps     1    10ms     10
+consumer-28       access-3      512Mbps     1    10ms     10
+consumer-29       access-3      512Mbps     1    10ms     10
+consumer-30       access-3      512Mbps     1    10ms     10
+
+producer-5        access-3      512Mbps     1    50ms     10
+producer-6        access-3      512Mbps     1    50ms     10
+#------------------------------------------------------------
+consumer-31       access-4      512Mbps     1    10ms     10
+consumer-32       access-4      512Mbps     1    10ms     10
+consumer-33       access-4      512Mbps     1    10ms     10
+consumer-34       access-4      512Mbps     1    10ms     10
+consumer-35       access-4      512Mbps     1    10ms     10
+consumer-36       access-4      512Mbps     1    10ms     10
+consumer-37       access-4      512Mbps     1    10ms     10
+consumer-38       access-4      512Mbps     1    10ms     10
+consumer-39       access-4      512Mbps     1    10ms     10
+consumer-40       access-4      512Mbps     1    10ms     10
+
+producer-7        access-4      512Mbps     1    50ms     10
+producer-8        access-4      512Mbps     1    50ms     10
+#------------------------------------------------------------
+consumer-41       access-5      512Mbps     1    10ms     10
+consumer-42       access-5      512Mbps     1    10ms     10
+consumer-43       access-5      512Mbps     1    10ms     10
+consumer-44       access-5      512Mbps     1    10ms     10
+consumer-45       access-5      512Mbps     1    10ms     10
+consumer-46       access-5      512Mbps     1    10ms     10
+consumer-47       access-5      512Mbps     1    10ms     10
+consumer-48       access-5      512Mbps     1    10ms     10
+consumer-49       access-5      512Mbps     1    10ms     10
+consumer-50       access-5      512Mbps     1    10ms     10
+
+producer-9        access-5      512Mbps     1    50ms     10
+producer-10       access-5      512Mbps     1    50ms     10
+#------------------------------------------------------------
+consumer-51       access-6      512Mbps     1    10ms     10
+consumer-52       access-6      512Mbps     1    10ms     10
+consumer-53       access-6      512Mbps     1    10ms     10
+consumer-54       access-6      512Mbps     1    10ms     10
+consumer-55       access-6      512Mbps     1    10ms     10
+consumer-56       access-6      512Mbps     1    10ms     10
+consumer-57       access-6      512Mbps     1    10ms     10
+consumer-58       access-6      512Mbps     1    10ms     10
+consumer-59       access-6      512Mbps     1    10ms     10
+consumer-60       access-6      512Mbps     1    10ms     10
+
+producer-11       access-6      512Mbps     1    50ms     10
+producer-12       access-6      512Mbps     1    50ms     10
+#------------------------------------------------------------
+consumer-61       access-7      512Mbps     1    10ms     10
+consumer-62       access-7      512Mbps     1    10ms     10
+consumer-63       access-7      512Mbps     1    10ms     10
+consumer-64       access-7      512Mbps     1    10ms     10
+consumer-65       access-7      512Mbps     1    10ms     10
+consumer-66       access-7      512Mbps     1    10ms     10
+consumer-67       access-7      512Mbps     1    10ms     10
+consumer-68       access-7      512Mbps     1    10ms     10
+consumer-69       access-7      512Mbps     1    10ms     10
+consumer-70       access-7      512Mbps     1    10ms     10
+
+producer-13       access-7      512Mbps     1    50ms     10
+producer-14       access-7      512Mbps     1    50ms     10
+#------------------------------------------------------------
+consumer-71       access-8      512Mbps     1    10ms     10
+consumer-72       access-8      512Mbps     1    10ms     10
+consumer-73       access-8      512Mbps     1    10ms     10
+consumer-74       access-8      512Mbps     1    10ms     10
+consumer-75       access-8      512Mbps     1    10ms     10
+consumer-76       access-8      512Mbps     1    10ms     10
+consumer-77       access-8      512Mbps     1    10ms     10
+consumer-78       access-8      512Mbps     1    10ms     10
+consumer-79       access-8      512Mbps     1    10ms     10
+consumer-80       access-8      512Mbps     1    10ms     10
+
+producer-15       access-8      512Mbps     1    50ms     10
+producer-16       access-8      512Mbps     1    50ms     10
+#------------------------------------------------------------
+consumer-81       access-9      512Mbps     1    10ms     10
+consumer-82       access-9      512Mbps     1    10ms     10
+consumer-83       access-9      512Mbps     1    10ms     10
+consumer-84       access-9      512Mbps     1    10ms     10
+consumer-85       access-9      512Mbps     1    10ms     10
+consumer-86       access-9      512Mbps     1    10ms     10
+consumer-87       access-9      512Mbps     1    10ms     10
+consumer-88       access-9      512Mbps     1    10ms     10
+consumer-89       access-9      512Mbps     1    10ms     10
+consumer-90       access-9      512Mbps     1    10ms     10
+
+producer-17       access-9      512Mbps     1    50ms     10
+producer-18       access-9      512Mbps     1    50ms     10
+#------------------------------------------------------------
+consumer-91       access-10     512Mbps     1    10ms     10
+consumer-92       access-10     512Mbps     1    10ms     10
+consumer-93       access-10     512Mbps     1    10ms     10
+consumer-94       access-10     512Mbps     1    10ms     10
+consumer-95       access-10     512Mbps     1    10ms     10
+consumer-96       access-10     512Mbps     1    10ms     10
+consumer-97       access-10     512Mbps     1    10ms     10
+consumer-98       access-10     512Mbps     1    10ms     10
+consumer-99       access-10     512Mbps     1    10ms     10
+consumer-100      access-10     512Mbps     1    10ms     10
+
+producer-19       access-10     512Mbps     1    50ms     10
+producer-20       access-10     512Mbps     1    50ms     10
+#------------------------------------------------------------
+# communication between core and access nodes
+access-1            core-1      512Mbps     1    10ms     10
+access-2            core-2      512Mbps     1    10ms     10
+access-3            core-3      512Mbps     1    10ms     10
+access-4            core-4      512Mbps     1    10ms     10
+access-5            core-5      512Mbps     1    10ms     10
+access-6            core-6      512Mbps     1    10ms     10
+access-7            core-7      512Mbps     1    10ms     10
+access-8            core-8      512Mbps     1    10ms     10
+access-9            core-9      512Mbps     1    10ms     10
+access-10           core-10     512Mbps     1    10ms     10
+# communication between core nodes
+core-1              core-2      1Gbps       1    10ms     10
+core-2              core-3      1Gbps       1    10ms     10
+core-3              core-4      1Gbps       1    10ms     10
+core-4              core-5      1Gbps       1    10ms     10
+core-5              core-6      1Gbps       1    10ms     10
+core-6              core-7      1Gbps       1    10ms     10
+core-7              core-8      1Gbps       1    10ms     10
+core-8              core-9      1Gbps       1    10ms     10
+core-9              core-10     1Gbps       1    10ms     10
+core-10             core-1      1Gbps       1    10ms     10
+core-11             core-2      1Gbps       1    10ms     10
+core-12             core-4      1Gbps       1    10ms     10
+core-13             core-6      1Gbps       1    10ms     10
+core-14             core-8      1Gbps       1    10ms     10
+core-15             core-10     1Gbps       1    10ms     10
+core-16             core-1      1Gbps       1    10ms     10
+core-17             core-10     1Gbps       1    10ms     10
+core-18             core-6      1Gbps       1    10ms     10
+core-19             core-7      1Gbps       1    10ms     10
+core-20             core-9      1Gbps       1    10ms     10
+#------------------------------------------------------------
